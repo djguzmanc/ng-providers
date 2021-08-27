@@ -20,8 +20,9 @@ import { CustomDialogContainerComponent } from './custom-dialog-container/custom
   imports: [
     BrowserModule,
     RequestErrorModule.forRoot({
-      handler: ConsoleErrorHandlerService,
-      usePrefix: 'Jajaja'
+      // handler: ConsoleErrorHandlerService,
+      handler: AlertErrorHandlerService,
+      usePrefix: 'SUFIX'
     })
   ],
   providers: [

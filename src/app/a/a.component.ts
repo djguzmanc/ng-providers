@@ -30,7 +30,7 @@ export class AComponent implements OnInit {
         providers: [
           {
             provide: COMPONENT_NAME,
-            useValue: 'From provider JUEPUTAAA'
+            useValue: 'From provider'
           }
         ]
       })
@@ -41,7 +41,7 @@ export class AComponent implements OnInit {
   }
 
   fakeError(): void {
-    this.errorHandler.somethingWrongHappened('Las pelotas viejo :(');
+    this.errorHandler.somethingWrongHappened('FLDSMDFR :(');
   }
 
 }

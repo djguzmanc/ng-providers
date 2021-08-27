@@ -1,9 +1,7 @@
 import { Injectable } from '@angular/core';
 import { ErrorUiConfig, ErrorUiHandler } from './error-ui-handler.config';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class ErrorService {
 
   constructor(
